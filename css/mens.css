@@ -1,0 +1,10 @@
+
+#secOne{
+    margin: 1.5rem 0;
+}
+
+ 
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}

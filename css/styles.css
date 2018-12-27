@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/bacground4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    font-family: Georgia;
+}
+.bkfull{
+    background-color: rgba(255, 255, 255, .7);
+    flex-wrap: wrap;
+}
+#nav {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#nav a{
+    color: white;
+}
+#nav a:hover{
+    background-color: grey;
+}
+
+#mainOne{
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+#imgLogo{
+    position: relative;
+    width: 23rem;
+    z-index: -1;
+}
+#spaceBlock{
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+}
+#sectionTwo{
+    margin:5rem 0 0 0;
+}
+#secSection{
+    
+    background-color: rgba(255, 255, 255, .8);
+    background-size: cover;
+    box-shadow: 10px 10px 20px black;
+    margin: 0 2rem;
+    
+}
+#secSection h2{
+    position: relative;
+    text-align:center;
+    vertical-align: middle;    
+    bottom: 0;
+    
+    
+}
+footer{
+    width: 100%;    
+    background-color: rgba(0,0,0,.8);
+    color: darkgrey;
+}
+footer ul li{
+    list-style: circle;
+}
+#fbIcon{
+    width: 3rem;
+}
+#mssg{
+    display: none;
+}
+
+#mssg p{
+    margin: 1rem .5rem;
+}
+#month{
+    font-weight: bold;
+    font-size: 4rem;
+}
+@media (max-width: 575px){
+    #imgLogo{
+        width: 26rem;
+    }
+    #secSection{
+        margin-top: 1rem;
+    }
+    #nav{
+        background-color: rgba(255, 255, 255, .3);
+    }
+}
+@media (min-width: 576px) and (max-width: 990px){
+    #imgLogo{
+        width: 23rem;
+    }
+    #secSection{
+        margin-top: 1.5rem;
+    }
+    #nav{
+        background-color: rgba(255, 255, 255, .3);
+    }
+}
+.footer {
+    margin-top: 2rem;
+}
+
+
+.mssgBoard{
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 10px 10px 20px black;
+    height: 10em;
+}
+
+#calendar{
+    margin-top: 2em;    
+}
+#round {
+    border-radius: 30px;
+}
+#youtube{
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 10px 10px 20px black;    
+    
+}
+#padding{
+    padding-top: 2rem;
+    
+}

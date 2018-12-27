@@ -1,0 +1,11 @@
+#top{
+    margin-top: 2.5rem;
+}
+#border{
+    border: 50px solid transparent;
+    padding: 15px;
+    border-image: url(/images/visionBorder.png) 30% round;
+}
+.text{
+    font-size: 3rem;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    height: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    background-blend-mode: screen;
+    background-image: url(/images/praise.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#title{
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    
+}
+#title h1{
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+
+#image{
+    width: 20rem;
+    box-shadow: 10px 10px 20px black;
+}
+.space{
+    margin-top: 2rem;
+}
+#image1{ 
+    width: 40rem;
+    box-shadow: 10px 10px 20px black;
+}
+#solidbar{
+    margin: 1em 0;
+    background-color: black;
+    height: 1rem;
+}
+#secondbar{
+    background-color: black;
+    height: .25rem;
+}
+#names{
+    font-weight: bolder;
+    margin-top: 1em;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, .4);
+}
+#quote{
+    color: black;
+    text-shadow: 0 0 0 black;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20% 0 20% 0;
+    box-shadow: 10px 10px 20px black;
+}
+@media (max-width: 576px){
+    #quote{
+        font-size: 1rem;
+    }
+    #names {
+        font-size: .75rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    
+    #quote {
+        font-size: 1.25rem;
+    }
+    #imgLogo{
+        
+    }
+    
+}
